@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Заголовок заметки"
+        tools:layout_editor_absoluteX="11dp"
+        tools:layout_editor_absoluteY="23dp" />
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="295dp"
+        android:layout_height="49dp"
+        tools:layout_editor_absoluteX="102dp"
+        tools:layout_editor_absoluteY="6dp">
+
+        <requestFocus></requestFocus>
+    </EditText>
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Описание"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="69dp" />
+
+
+    <EditText
+        android:id="@+id/desc"
+        android:layout_width="295dp"
+        android:layout_height="56dp"
+        tools:layout_editor_absoluteX="102dp"
+        tools:layout_editor_absoluteY="69dp" />
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Добавить заметку"
+        android:textColorHighlight="#9C2BAF"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="545dp"
+        android:backgroundTint="@color/purple_200"/>
+
+    <Button
+        android:id="@+id/btnClear"
+        android:layout_width="195dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/purple_200"
+        android:text="Очистить все"
+        tools:layout_editor_absoluteX="135dp"
+        tools:layout_editor_absoluteY="544dp" />
+
+    <Button
+        android:id="@+id/btnRead"
+        android:layout_width="196dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/purple_200"
+        android:text="Показать все"
+        tools:layout_editor_absoluteX="274dp"
+        tools:layout_editor_absoluteY="544dp" />
+
+    <Button
+        android:id="@+id/about"
+        android:layout_width="164dp"
+        android:layout_height="53dp"
+        android:layout_margin="240dp"
+        android:text="О программе"
+        android:backgroundTint="@color/purple_200"
+        />
+
+</LinearLayout>
